@@ -1,12 +1,12 @@
 {
   "IsEncrypted": false,
   "Values": {
-    "AzureWebJobsStorage": "DefaultEndpointsProtocol=https...",
+    "AzureWebJobsStorage": "DefaultEndpointsProtocol=https;EndpointSuffix=core.windows.net;AccountName=staawjstorage;AccountKey=Uh3KHv1K+2OAEMfn2S3py31/GRSzWmBwExqUxYCPlJzO392VcncT19mioKTYleDlF03MV7ddpf4/+AStBkRe5Q==",
     "AzureWebJobsDashboard": "UseDevelopmentStorage=true",
-    "ConnectionString": "Endpoint=...",
-    "DeviceConnectionString": "HostName=...",
-    "AzureMLurl": "http://...",
-    "AzureMLkey": "...",
+    "ConnectionString": "Endpoint=sb://iothub-ns-staiotpihu-23024193-e9c48e883a.servicebus.windows.net/;SharedAccessKeyName=iothubowner;SharedAccessKey=C1le63y5dEMCA1VZCWBtvilFlPKf8y9OTugwpiWltJ0=;EntityPath=staiotpihub",
+    "DeviceConnectionString": "HostName=staiotpihub.azure-devices.net;SharedAccessKeyName=iothubowner;SharedAccessKey=C1le63y5dEMCA1VZCWBtvilFlPKf8y9OTugwpiWltJ0=",
+    "AzureMLurl": "http://5d8eba1a-aef4-4283-a1b4-db697bb2ffc9.westeurope.azurecontainer.io/score",
+    "AzureMLkey": "4J0gxT0ywD7Frk9lPSOQ98bM6Uu9351b",
     "FUNCTIONS_WORKER_RUNTIME": "python"
   }
 }
